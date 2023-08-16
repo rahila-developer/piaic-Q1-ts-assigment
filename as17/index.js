@@ -21,12 +21,27 @@ for (let i of personList) {
 console.log("you can invite only two people for dinner");
 // • Remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
 let removeGuest1 = personList.pop();
-console.log(`${removeGuest1} you are not invited.` + personList.length);
+console.log(`${removeGuest1} you are not invited. and arraylength is` + personList.length);
 let removeGuest2 = personList.pop();
-console.log(`${removeGuest2} you are not invited.` + personList.length);
+console.log(`${removeGuest2} you are not invited.and arraylength is` + personList.length);
 let removeGuest3 = personList.pop();
-console.log(`${removeGuest3} you are not invited.` + personList.length);
+console.log(`${removeGuest3} you are not invited.and arraylength is ` + personList.length);
 let removeGuest4 = personList.pop();
-console.log(`${removeGuest4} you are not invited.` + personList.length);
+console.log(`${removeGuest4} you are not invited.and arraylength is ` + personList.length);
 let removeGuest5 = personList.pop();
-console.log(`${removeGuest5} you are not invited.` + personList.length);
+console.log(`${removeGuest5} you are not invited.and arraylength is ` + personList.length);
+let removeGuest6 = personList.pop();
+console.log(`${removeGuest6} you are not invited.and arraylength is ` + personList.length);
+let removeGuest7 = personList.pop();
+console.log(`${removeGuest7} you are not invited.and arraylength is ` + personList.length);
+// • Print a message to each of the two people still on your list, letting them know they’re still invited.
+for (let i of personList) {
+    console.log(`hi dear ${i} \nyou are still invited`);
+}
+// • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
+let removeGuest8 = personList.pop();
+console.log(`${removeGuest8} you are not invited.and arraylength is ` + personList.length);
+let removeGuest9 = personList.pop();
+console.log(`${removeGuest9} you are not invited.and arraylength is ` + personList.length);
+// • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
+console.log(`this is an empty array ${personList.length}`);
