@@ -44,4 +44,4 @@ console.log(`${removeGuest8} you are not invited.and arraylength is ` + personLi
 let removeGuest9 = personList.pop();
 console.log(`${removeGuest9} you are not invited.and arraylength is ` + personList.length);
 // • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
-console.log(`this is an empty array ${personList.length}`);
+console.log(`this is an empty array ${personList}`);
